@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/slider/owl.carousel.css">
+    <link rel="stylesheet" href="css/slider/owl.theme.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <section>
+       <div>
+        <p id="data">
+            click to display time and date by js
+        </p>
+   
+
+<button type="button" onclick="document.getElementById('data').innerHTML = Date()"> click to displaY DATE and time </button>
+<p id="data1">this is a paragraph.</p>
+<button type="button" onclick="document.getElementById('data1').innerHTML='para' "> click me</button>
+</div>
+<p> change src attribute</p>
+<img id="img1" src="images/i1.jpg">
+<button type="button" onclick="document.getElementById('img1').src='images/i2.jpg' ">  click </button>
+</section>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slider/owl.carousel.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
